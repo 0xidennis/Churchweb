@@ -155,7 +155,7 @@ const Home = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Connect With Us</h3>
             <div className="flex justify-center lg:space-x-6  space-x-2">
               <a 
-                href="https://youtube.com/@yourchannel" 
+                href="" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center space-x-2 bg-white hover:bg-gray-100 text-red-400 px-2 py-3 rounded-lg transition-all transform hover:scale-105"
@@ -164,7 +164,7 @@ const Home = () => {
                 <span className="font-medium ">YouTube</span>
               </a>
               <a 
-                href="https://facebook.com/yourpage" 
+                href="" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-2 py-3 rounded-lg transition-all transform hover:scale-105"
@@ -173,7 +173,7 @@ const Home = () => {
                 <span className="font-medium text-white">Facebook</span>
               </a>
               <a 
-                href="https://instagram.com/yourprofile" 
+                href="" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-2 py-3 rounded-lg transition-all transform hover:scale-105"
