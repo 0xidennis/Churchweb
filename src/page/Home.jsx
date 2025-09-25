@@ -153,7 +153,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Connect With Us</h3>
-            <div className="flex justify-center lg:space-x-6  space-x-4">
+            <div className="flex justify-center lg:space-x-6  space-x-2">
               <a 
                 href="https://youtube.com/@yourchannel" 
                 target="_blank" 
