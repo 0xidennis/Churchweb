@@ -158,10 +158,10 @@ const Home = () => {
                 href="https://youtube.com/@yourchannel" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="group flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-blue-700 px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+                className="group flex items-center space-x-2 bg-white hover:bg-gray-100 text-red-400 px-6 py-3 rounded-lg transition-all transform hover:scale-105"
               >
-                <Youtube className="h-6 w-6" />
-                <span className="font-medium">YouTube</span>
+                <Youtube className="h-6 w-6 text-red-400" />
+                <span className="font-medium ">YouTube</span>
               </a>
               <a 
                 href="https://facebook.com/yourpage" 
@@ -169,8 +169,8 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="group flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105"
               >
-                <Facebook className="h-6 w-6" />
-                <span className="font-medium">Facebook</span>
+                <Facebook className="h-6 w-6 text-white" />
+                <span className="font-medium text-white">Facebook</span>
               </a>
               <a 
                 href="https://instagram.com/yourprofile" 
@@ -178,8 +178,8 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="group flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105"
               >
-                <Instagram className="h-6 w-6" />
-                <span className="font-medium">Instagram</span>
+                <Instagram className="h-6 w-6 text-white" />
+                <span className="font-medium text-white">Instagram</span>
               </a>
             </div>
           </div>
