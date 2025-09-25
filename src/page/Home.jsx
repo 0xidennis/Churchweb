@@ -62,15 +62,15 @@ const Home = () => {
     return v;
   };
   return (
-    <div className="min-h-screen bg-white/30 backdrop-blur-md">
+    <div className="min-h-screen bg-white overflow-y-auto ">
       {/* Navigation */}
-      <nav className="bg-white shadow-lg sticky top-0 z-50">
+      <nav className="bg-white/50 shadow-lg   z-50  fixed top-0 left-0 w-full backdrop-blur-md ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 <Heart className="h-8 w-8 text-blue-600 mr-2" />
-                <span className="font-bold text-xl text-gray-900">Grace Community Church</span>
+                <span className="font-bold text-xl text-gray-900">Grace</span>
               </div>
             </div>
             
@@ -153,12 +153,12 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Connect With Us</h3>
-            <div className="flex justify-center space-x-8">
+            <div className="flex justify-center lg:space-x-6  space-x-4">
               <a 
                 href="https://youtube.com/@yourchannel" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="group flex items-center space-x-2 bg-white hover:bg-gray-100 text-red-400 px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+                className="group flex items-center space-x-2 bg-white hover:bg-gray-100 text-red-400 px-2 py-3 rounded-lg transition-all transform hover:scale-105"
               >
                 <Youtube className="h-6 w-6 text-red-400" />
                 <span className="font-medium ">YouTube</span>
@@ -167,7 +167,7 @@ const Home = () => {
                 href="https://facebook.com/yourpage" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="group flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+                className="group flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-2 py-3 rounded-lg transition-all transform hover:scale-105"
               >
                 <Facebook className="h-6 w-6 text-white" />
                 <span className="font-medium text-white">Facebook</span>
@@ -176,7 +176,7 @@ const Home = () => {
                 href="https://instagram.com/yourprofile" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="group flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+                className="group flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-2 py-3 rounded-lg transition-all transform hover:scale-105"
               >
                 <Instagram className="h-6 w-6 text-white" />
                 <span className="font-medium text-white">Instagram</span>
